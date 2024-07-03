@@ -1,0 +1,45 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.page-header {
+    background-color: #f5f5f5;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-image {
+    width: 50%;
+    height: 400px; /* Высота может быть изменена */
+    background-image: url('large-image.jpg'); /* URL к большому изображению */
+    background-size: cover;
+    background-position: center;
+}
+
+.right-text-block {
+    width: 40%; /* Расположение на 20vw от края */
+    margin-left: 20vw;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-part {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-part {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.page-footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+}
